@@ -1,0 +1,21 @@
+{
+    "name": "root/twitter",
+    "authors": [
+        {
+            "name": "comp",
+            "email": "igorshinal@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "classmap": [
+            "app/Models",
+            "app/Controllers",
+            "app/Views",
+            "app/Database",
+            "app/Route"
+        ]
+    }
+}

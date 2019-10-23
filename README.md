@@ -1,1 +1,1 @@
-Demo version https://cryptic-peak-57369.herokuapp.com/
+Demo version https://ringostat.herokuapp.com/

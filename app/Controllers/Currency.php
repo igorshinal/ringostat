@@ -9,10 +9,12 @@ class Currency extends Controller
     {
 
 		$endpoint = 'latest';
-		$access_key = 'e327b2fc28457c39731a338413b36ee1';
+
+		$access_key = getenv('API_KEY');
+		$url = getenv('HOST_NAME');
 
 
-		$ch = curl_init('http://data.fixer.io/api/'.$endpoint.'?access_key='.$access_key.'');
+		$ch = curl_init($url . $endpoint . '?access_key=' . $access_key.'');
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 
